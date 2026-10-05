@@ -388,15 +388,7 @@ public class Part3Contacts {
         System.out.println("All contacts have been deleted.");
     }
 
-    // ================================================================
-    // Part 3.8. Add Sample Contacts
-    // ================================================================
 
-    /**
-     * Adds prepared sample contacts to the database.
-     *
-     * This method is useful for testing and debugging.
-     */
     public static void addSampleContacts() {
 
         System.out.println("\n======================================");

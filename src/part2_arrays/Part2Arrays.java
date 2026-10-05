@@ -3,23 +3,12 @@ package part2_arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Part 2. Array Handling
- *
- * Contains methods for:
- * 1. Input array
- * 2. Creating an array with random values
- * 3. Printing an array
- * 4. Calculating the sum
- * 5. Finding the largest value
- * 6. Searching for a value
- */
+
 public class Part2Arrays {
 
-    // Scanner for reading user input
+
     static Scanner scanner = new Scanner(System.in);
 
-    // Random object for generating random numbers
     static Random random = new Random();
 
     public static void main(String[] args) {
@@ -28,9 +17,6 @@ public class Part2Arrays {
         System.out.println("       PART 2. ARRAY HANDLING");
         System.out.println("=================================");
 
-        // ============================================================
-        // Part 2.1. Input Array Method
-        // ============================================================
 
         System.out.print("\nEnter array length for Part 2.1: ");
         int inputLength = scanner.nextInt();
@@ -40,9 +26,7 @@ public class Part2Arrays {
         System.out.println("Your array:");
         printArray(userArray);
 
-        // ============================================================
-        // Part 2.2. Create an array with random values
-        // ============================================================
+
 
         System.out.print("\nEnter array length for Part 2.2: ");
         int randomLength = scanner.nextInt();
@@ -52,16 +36,10 @@ public class Part2Arrays {
         System.out.println("Random array:");
         printArray(randomArray);
 
-        // ============================================================
-        // Part 2.3. Print Array Method
-        // ============================================================
 
         System.out.println("\nPart 2.3. Print Array Method:");
         printArray(randomArray);
 
-        // ============================================================
-        // Part 2.4. Sum of array elements
-        // ============================================================
 
         System.out.println("\nPart 2.4. Sum of array elements");
 
@@ -81,9 +59,6 @@ public class Part2Arrays {
 
         System.out.println("Sum of array elements: " + sum);
 
-        // ============================================================
-        // Part 2.5. Largest value in an array
-        // ============================================================
 
         System.out.println("\nPart 2.5. Largest value in an array");
 
@@ -105,9 +80,6 @@ public class Part2Arrays {
 
         System.out.println("Largest value: " + largest);
 
-        // ============================================================
-        // Part 2.6. Search value in array method
-        // ============================================================
 
         System.out.println("\nPart 2.6. Search value in array");
 
