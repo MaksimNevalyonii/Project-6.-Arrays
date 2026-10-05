@@ -107,16 +107,7 @@ public class Part2Arrays {
         scanner.close();
     }
 
-    // ================================================================
-    // Part 2.1. Input Array Method
-    // ================================================================
 
-    /**
-     * Creates an integer array and fills it with values entered by user.
-     *
-     * @param length length of the array
-     * @return new array filled with user input
-     */
     public static int[] inputArray(int length) {
 
         int[] array = new int[length];
@@ -131,18 +122,7 @@ public class Part2Arrays {
         return array;
     }
 
-    // ================================================================
-    // Part 2.2. Create an array with random values method
-    // ================================================================
 
-    /**
-     * Creates an integer array and fills it with random values.
-     *
-     * Random values are generated from 0 to 99.
-     *
-     * @param length length of the array
-     * @return new array with random values
-     */
     public static int[] createRandomArray(int length) {
 
         int[] array = new int[length];
@@ -154,15 +134,7 @@ public class Part2Arrays {
         return array;
     }
 
-    // ================================================================
-    // Part 2.3. Print Array Method
-    // ================================================================
 
-    /**
-     * Prints all array elements in a user-friendly format.
-     *
-     * @param array array to print
-     */
     public static void printArray(int[] array) {
 
         System.out.print("[ ");
@@ -179,17 +151,6 @@ public class Part2Arrays {
         System.out.println(" ]");
     }
 
-    // ================================================================
-    // Part 2.6. Search Value in Array Method
-    // ================================================================
-
-    /**
-     * Searches for a value in an array.
-     *
-     * @param array array where the value should be searched
-     * @param searchedValue value to search for
-     * @return index of the found element or -1 if value is not found
-     */
     public static int searchValue(int[] array, int searchedValue) {
 
         for (int i = 0; i < array.length; i++) {
