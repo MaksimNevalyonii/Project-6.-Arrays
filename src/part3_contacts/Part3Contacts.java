@@ -2,21 +2,7 @@ package part3_contacts;
 
 import java.util.Scanner;
 
-/**
- * Part 3. Contacts Database
- *
- * The program stores contacts in an array of Strings.
- *
- * Available operations:
- * 1. Add contacts
- * 2. Show contacts
- * 3. Search in contacts
- * 4. Edit contact
- * 5. Delete contact
- * 6. Delete all contacts
- * 7. Add sample contacts
- * 0. Exit
- */
+
 public class Part3Contacts {
 
     // Scanner for user input
@@ -33,9 +19,7 @@ public class Part3Contacts {
 
     public static void main(String[] args) {
 
-        // ============================================================
-        // Part 3. Main Menu
-        // ============================================================
+
 
         boolean running = true;
 
@@ -95,13 +79,7 @@ public class Part3Contacts {
         scanner.close();
     }
 
-    // ================================================================
-    // Part 3.1. Main Menu
-    // ================================================================
 
-    /**
-     * Displays the main program menu.
-     */
     public static void showMenu() {
 
         System.out.println("\n--------------------------------------");
@@ -118,16 +96,7 @@ public class Part3Contacts {
         System.out.println("--------------------------------------");
     }
 
-    // ================================================================
-    // Part 3.2. Add Contacts
-    // ================================================================
 
-    /**
-     * Adds new contacts to the array.
-     *
-     * The user enters one contact per line.
-     * An empty line finishes the operation.
-     */
     public static void addContacts() {
 
         System.out.println("\n======================================");
@@ -166,13 +135,7 @@ public class Part3Contacts {
         System.out.println("Returning to main menu...");
     }
 
-    // ================================================================
-    // Part 3.3. Show Contacts
-    // ================================================================
 
-    /**
-     * Displays all contacts stored in the array.
-     */
     public static void showContacts() {
 
         System.out.println("\n======================================");
@@ -203,13 +166,7 @@ public class Part3Contacts {
         }
     }
 
-    // ================================================================
-    // Part 3.4. Search in Contacts
-    // ================================================================
 
-    /**
-     * Searches contacts using String.contains().
-     */
     public static void searchContacts() {
 
         System.out.println("\n======================================");
@@ -246,14 +203,6 @@ public class Part3Contacts {
         }
     }
 
-    // ================================================================
-    // Part 3.5. Edit Contact
-    // ================================================================
-
-    /**
-     * Allows the user to select a contact by number
-     * and replace it with a new value.
-     */
     public static void editContact() {
 
         System.out.println("\n======================================");
@@ -313,15 +262,7 @@ public class Part3Contacts {
         System.out.println("Contact successfully edited.");
     }
 
-    // ================================================================
-    // Part 3.6. Delete Contact
-    // ================================================================
 
-    /**
-     * Deletes a contact by replacing its value with "DELETED".
-     *
-     * The physical array element remains in the array.
-     */
     public static void deleteContact() {
 
         System.out.println("\n======================================");
@@ -366,13 +307,7 @@ public class Part3Contacts {
         System.out.println("Contact deleted.");
     }
 
-    // ================================================================
-    // Part 3.7. Delete All Contacts
-    // ================================================================
 
-    /**
-     * Makes all contact array elements empty.
-     */
     public static void deleteAllContacts() {
 
         System.out.println("\n======================================");
